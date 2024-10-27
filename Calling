@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+void Ram(){
+ cout<<"good moring \n";
+ cout<<"raj\n";
+}
+int main(){
+    Ram ();
+    Ram();
+    return 0;
+
+}
