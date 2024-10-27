@@ -1,0 +1,10 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    int a;
+    cout<<" Enter the no";
+        cin>>a;
+    int root= sqrt(a);
+    cout<<"The sret is  "<<root;
+}
