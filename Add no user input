@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int add( int a,int b){
+return a+b;
+}
+int main(){
+    int x,y; 
+    cout<<"Enter a no first and second";
+       cin>> x>>y;
+    int sum=  add( x,y);
+    cout<<"the sum is  "<< sum;    return 0;
+}
