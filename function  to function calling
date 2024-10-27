@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+ void england(){
+    cout<<"This is englang\n"<<endl;
+ }
+ void Turki(){
+    cout<<"This is turki\n";
+    england();
+ }
+ void panjab(){
+    cout<<"This is panjab\n";
+    Turki();
+ }
+ int main(){
+    panjab();
+    return 0;
+ }
